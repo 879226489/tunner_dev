@@ -1,0 +1,2 @@
+webpackJsonp([5],{"T/vq":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h1",[this._v("终端页面")])])}]};var i=n("C7Lr")({},r,!1,function(e){n("W1j+")},"data-v-b9617192",null);t.default=i.exports},"W1j+":function(e,t){}});
+//# sourceMappingURL=5.cc0f3604584f8da7eddd.js.map

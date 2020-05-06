@@ -1,0 +1,2 @@
+webpackJsonp([4],{gAhQ:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",[e("h1",[this._v("村村响日常广播")])])}]};var a=n("C7Lr")({data:function(){return{}},methods:{name:function(){}}},r,!1,function(t){n("qqja")},"data-v-bdd8014a",null);e.default=a.exports},qqja:function(t,e){}});
+//# sourceMappingURL=4.f6bdc41e8c742026c43e.js.map

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script> 
+    // var arr = [2,2,6,5,6,8,9,9];
+    // function zz(arr) {
+    //   var result = [],
+    //       i,
+    //       j,
+    //       len = arr.length;
+    //   for (i = 0; i < len; i++) {
+    //     for (j = i + 1; j < len; j++) {
+    //         if (arr[i] === arr[j]) {
+    //             j = ++i;
+    //         }
+    //     }
+    //     result.push(arr[i]);
+    //   }
+    //   return result;
+    // }
+    // console.log(zz(arr))
+    // function func(arr){
+    //   var arr1 = [];
+    //   for(var i=0;i<arr.length;i++){
+    //     if(arr1.indexOf(arr[i])==-1){
+    //       arr1.push(arr[i]);
+    //     }
+    //   }
+    //   return arr1
+    // }
+    // console.log(func(arr));
+    // var arr2 = arr.filter((item,index,self)=>{
+    //   return self.indexOf(item)==index;
+    // })
+    // console.log(arr2);
+    // 数组扁平化
+    var bph = [1, [2, 3, [4, 5]]];
+    function flatten(bph) {  
+      return bph.reduce((result, item)=> {
+        return result.concat(Array.isArray(item) ? flatten(item) : item);
+      }, []);
+    }
+  console.log(flatten(bph));
+  function bph1(arr){
+    var arr2 = [];
+    var arr1 = arr.toString().split(",");
+    arr1.forEach(item=>{
+      arr2.push(Number(item));
+    });
+    return arr2
+    //   return arr.toString().split(",").forEach(item=>{
+    //    parseInt(item);
+    // })
+  }
+  console.log(bph1(bph));
+  </script>
+</body>
+</html>

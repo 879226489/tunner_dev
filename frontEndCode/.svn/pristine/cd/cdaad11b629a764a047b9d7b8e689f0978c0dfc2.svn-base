@@ -1,0 +1,143 @@
+//页面title
+.pageTitle{
+  @include flexbox;
+  @include justify-content(space-between);
+  @include align-items(center);
+  height: 54px;
+  width: 100%;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 20px;
+  .titleFont {
+    display: inline;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(33, 84, 124, 1);
+    line-height: 54px;
+    margin-left: 19px;
+  }
+}
+//中间部分筛选搜索功能样式
+.filter-container{
+    width:100%;
+    padding: 20px;
+    background: #fff;
+    @include flexbox;
+    @include justify-content(space-between);
+    @include align-items(center);
+    @include flex-wrap(wrap);
+    .select-container{
+      width: 78%;
+      @include flexbox;
+      @include align-items(center);
+      @include flex-wrap(wrap);
+    }
+    .function-container{
+      width: 22%;
+      @include flexbox;
+      @include flex-direction(row-reverse);
+    }
+    .change-box{
+        margin-top: 1%;
+    }
+    //input搜索框尾部按钮背景颜色
+    .ivu-input-search{
+      background: #6283AE !important;
+    }
+    .margin{
+      margin:0 15px;
+    }
+  }
+  //整体表格样式
+  .ivu-table-wrapper{
+      margin-top: 15px;
+      //height:400px;
+    .ivu-table{
+        th{
+        background: #6283AE !important;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        }
+        td{
+            text-align: center;  
+        }
+      }
+      .ivu-table-header thead tr th{
+          height: 50px;
+        }
+      .ivu-table-tip{
+        overflow-x: hidden;
+      }
+      .ivu-layout{
+        background: #fff;
+      }
+  }
+//弹出框的表格图表选择样式
+.category-box{
+  width: 20%;
+  @include flexbox;
+  @include justify-content(flex-end);
+  @include align-items(center);
+  button{
+    margin-left: 8px;
+  }
+}
+//动画样式显示影藏
+.v-enter,
+.v-leave-to{
+  transform:scale(0.1);
+}
+/*v-enter-active[入场动画的时间段]*/
+/*v-leave-active[出场动画的时间段]*/
+.v-enter-active,
+.v-leave-active{
+  transition:all 0.3s linear;
+
+}
+.v-move{
+    transition: all 0.3s ease;
+  }
+.v-leave-active{
+  position: absolute;
+}
+//带ico图标的button
+// .ivu-icon-ios-add-circle{
+//   font-size: 25px;
+//   color: #19BE6B;
+//   position: relative;
+//   top: -3px;
+// }
+// .ivu-icon-md-remove-circle{
+//   font-size: 25px;
+//   color: #ED4014;
+//   position: relative;
+//   top: -3px;
+// }
+// .ivu-icon-md-cloud-download{
+//   font-size: 25px;
+//   color: #6283AE;
+//   position: relative;
+//   top: -3px;
+// }
+// .ivu-icon-md-cloud-upload{
+//   font-size: 25px;
+//   color: #F74F2A;
+//   position: relative;
+//   top: -3px;
+// }
+//一般页面大标题
+.h-title{
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.search-table {
+  background: #fff;
+  padding: 15px;
+}
+.search-page {
+  text-align: center;
+  padding-top: 15px;
+}

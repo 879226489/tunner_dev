@@ -1,0 +1,2 @@
+webpackJsonp([15],{"+UMg":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var r={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h1",[this._v("适配器页面")])])}]};var i=n("C7Lr")({},r,!1,function(e){n("jxfD")},"data-v-3f6360e0",null);t.default=i.exports},jxfD:function(e,t){}});
+//# sourceMappingURL=15.364913ea5e71fcca0958.js.map

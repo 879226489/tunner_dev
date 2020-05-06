@@ -1,0 +1,2 @@
+webpackJsonp([6],{"Mq3/":function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("h1",[this._v("告警设置")])])}]};var r=n("C7Lr")({},i,!1,function(e){n("xVi8")},"data-v-b0fa0a54",null);t.default=r.exports},xVi8:function(e,t){}});
+//# sourceMappingURL=6.4c78d3a279719f2a82a3.js.map
